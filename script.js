@@ -14,6 +14,7 @@ $.ajax({
       "https://api.aladhan.com/v1/timingsByCity?city="+city+"&country="+country+"&method=8",
      // "http://api.aladhan.com/v1/timingsByCity?"+city+"=Dhahran&"+country+"=saudi%20arabia&method=8",
        function (data) {
+         console.log(data);
          let date= data.data.date.hijri.date;
          let fajr= data.data.timings.Fajr;
          let sunrise= data.data.timings.Sunrise;
