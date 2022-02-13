@@ -1,0 +1,93 @@
+
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prayer Timings</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+    <!-- Favicons -->
+
+<meta name="theme-color" content="#7952b3">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+
+  </head>
+
+
+  <body class="d-flex h-100 text-center text-white bg-dark">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">
+        <img src="mosque.png" alt="mosque-img">
+      </h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active date" aria-current="page" href="#"></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="px-3">
+    <h1 id="city"></h1>
+    <table class="table table-dark table-hover">
+      <thead>
+        <tr>
+          <td><strong class="text-white">time</strong></td>
+          <td><strong class="text-white">prayer</strong></td>
+        </tr>
+
+      </thead>
+      <tbody>
+
+        <tr>
+          <td>Fajr</td>
+          <td class="fajr"></td>
+        </tr>
+        <tr>
+          <td>Sunrise</td>
+          <td class="sunrise"></td>
+        </tr>
+        <tr>
+          <td>Dhuhr</td>
+          <td class="dhuhr"></td>
+        </tr>
+        <tr>
+          <td>Asr</td>
+          <td class="asr"></td>
+        </tr>
+        <tr>
+          <td>Magrib</td>
+          <td class="maghrib"></td>
+        </tr>
+        <tr>
+          <td>Isha</td>
+          <td class="isha"></td>
+        </tr>
+        <tr>
+          <td>Midnight</td>
+          <td class="midnight"></td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- <p class="lead">
+      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+    </p> -->
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p>Prayer timings <strong class="text-white"> @copyRight</strong>.</p>
+  </footer>
+</div>
+
+
+<script src="script.js" charset="utf-8"></script>
+
+  </body>
+</html>

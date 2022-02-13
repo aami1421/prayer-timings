@@ -1,0 +1,2 @@
+I need a html widget code that will show Umm al Qura payer times for the current location of the users visiting my website. fajr, ishrak, shorrok, zuhr, asr, magrib, isha, 1st, 2nd, 3rd part of night. you can use ip address instead of geo tracking. That may be easier and cheaper.
+
